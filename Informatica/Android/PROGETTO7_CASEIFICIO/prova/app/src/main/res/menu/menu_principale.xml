@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/latte"
+        android:title="Registra latte"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rForma"
+        android:title="Registra forma"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mForma"
+        android:title="Modifica forma"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/vForma"
+        android:title="Vendi forma"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/cliente"
+        android:title="Registra cliente"
+        app:showAsAction="never"/>
+</menu>

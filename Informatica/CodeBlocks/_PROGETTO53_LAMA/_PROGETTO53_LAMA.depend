@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550662225 source:i:\codeblocks\_progetto53_lama\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<sstream>
+	<string.h>
+	<stdlib.h>
+

@@ -1,0 +1,17 @@
+#contenitore_infod{
+    width: 100% !important;
+    height: 50% !important;
+    background-color: #555 !important;
+    display: flex !important;
+    float: left;
+}
+
+.info{
+    width: 30% !important;
+    height: 30% !important;
+    display: flex !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 12px;
+    float: none;
+
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/legno"
+    tools:context=".CategoriaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnCat1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_above="@id/btnCat2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:id="@+id/btnCat2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+
+        <ImageButton
+            android:id="@+id/btnCat3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/btnCat2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtCat1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/btnCat1"
+            android:layout_alignLeft="@id/btnCat1"
+            android:layout_alignEnd="@id/btnCat1"
+            android:layout_alignRight="@id/btnCat1"
+            android:layout_alignBottom="@id/btnCat1"
+            android:layout_centerHorizontal="true"
+            style="@style/TextStyle2"/>
+
+        <TextView
+            android:id="@+id/txtCat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/btnCat2"
+            android:layout_alignLeft="@id/btnCat2"
+            android:layout_alignEnd="@id/btnCat2"
+            android:layout_alignRight="@id/btnCat2"
+            android:layout_alignBottom="@id/btnCat2"
+            android:layout_centerHorizontal="true"
+            style="@style/TextStyle2"/>
+
+        <TextView
+            android:id="@+id/txtCat3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/btnCat3"
+            android:layout_alignLeft="@id/btnCat3"
+            android:layout_alignEnd="@id/btnCat3"
+            android:layout_alignRight="@id/btnCat3"
+            android:layout_alignBottom="@id/btnCat3"
+            android:layout_centerHorizontal="true"
+            style="@style/TextStyle2"/>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

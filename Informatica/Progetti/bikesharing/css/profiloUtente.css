@@ -1,0 +1,79 @@
+#contenitore_profilo {
+    align-content: center;
+    background-color: #826dbd;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    box-shadow: 4px 4px 10px #000000;
+}
+
+.alignleft {
+    float: left;
+    padding: 2%;
+    margin: 2%;
+    font-size: 18px;
+}
+
+.alignright {
+    float: right;
+    padding: 1%;
+    margin: 2%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#datiPersonali {
+    font-size: 15px;
+}
+
+.dati {
+    color: rgb(255, 255, 255) !important;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 3px;
+    border-top: 1px solid #aaa;
+}
+
+.nomeDati {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    padding-bottom: 17px;
+    display: flex;
+}
+
+.valoreDati {
+    color: #fff !important;
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+    padding-bottom: 17px;
+}
+
+input {
+    background-color: transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-color: #fff;
+    color: #fff !important;
+}
+
+input:hover {
+    background-color: transparent;
+    border: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(214, 214, 214);
+    opacity: 1;
+    /* Firefox */
+}

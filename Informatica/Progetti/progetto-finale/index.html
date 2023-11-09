@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Week</title>
+</head>
+<body>
+    <div id="vue-container">
+        <header>
+            <div class="logo">
+                Boolean
+            </div>
+            <div class="input-container">
+                <input v-model="ricerca" placeholder="Search 529,365 games" @keyup.enter="esegui_ricerca" />
+            </div>
+            <div class="header-buttons">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </header>
+        <div class="content-container">
+            <div class="sidebar">
+                <ul class="sidebar-ul">
+                    <li class="li-title">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="li-title">
+                        <a href="#">Reviews</a>
+                    </li>
+                    <li class="li-title">
+                        <span>New Releases</span>
+                        <ul class="second-ul">
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-star"></i></span> <strong>Last 30 days</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-fire"></i></span> <strong>This week</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-fast-forward"></i></span> <strong>Next week</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>31</span> <strong>Release calendar</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li-title">
+                        <span>Top</span>
+                        <ul class="second-ul">
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-trophy"></i></span> <strong>Best of the year</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-signal"></i></span> <strong>Popular in 2020</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fas fa-crown"></i></span> <strong>All time top 250</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li-title">
+                        <a href="#">All Games</a>
+                    </li>
+                    <li class="li-title">
+                        <span>Platforms</span>
+                        <ul class="second-ul">
+                            <li>
+                                <a href="#">
+                                    <span><i class="fab fa-windows"></i></span> <strong>PC</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fab fa-playstation"></i></span> <strong>PlayStation 4</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><i class="fab fa-xbox"></i></span> <strong>Xbox One</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="cards-container">
+                <!-- IL tuo codice Qui -->
+                <h1 class="main-title">{{ title }}</h1>
+                <p class="subtitle">Based on player counts and release date</p>
+                <button class="button-title">Order by Relevance</button>
+
+                <div class="videogames">
+                    <div class="game" v-for="videogame in videogames">
+                        <img class="game-image" :src="videogame.background_image" alt="">
+
+                        <div class="game-texts">
+                            <h3 class="game-name">{{ videogame.name }}</h3>
+                            <button class="button-title game-button">
+                                <i class="fas fa-plus"></i> {{ videogame.ratings_count }}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="apikey.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Alessio,Novel,M,tecnico,78,45
+Nicholas,Scintu,M,tecnico,80,50
+Mattiahs,Bubich,M,tecnico,89,55
+Camilla,Skiano,F,liceo,100,60

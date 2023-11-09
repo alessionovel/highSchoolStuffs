@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537792468 source:i:\codeblocks\_progetto26_equazionesecondogrado\main.cpp
+	<iostream>
+	<math.h>
+	<stdio.h>
+

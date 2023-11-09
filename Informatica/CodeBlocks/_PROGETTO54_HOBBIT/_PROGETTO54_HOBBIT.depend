@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1553078976 source:i:\codeblocks\_progetto54_hobbit\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+
+1553079504 source:d:\informatica\programmazione\codeblocks\_progetto54_hobbit\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+

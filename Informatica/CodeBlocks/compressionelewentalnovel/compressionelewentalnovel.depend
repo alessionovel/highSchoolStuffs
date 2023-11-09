@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1548251926 source:i:\codeblocks\compressionelewentalnovel\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1548860129 source:i:\compressionelewentalnovel\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+

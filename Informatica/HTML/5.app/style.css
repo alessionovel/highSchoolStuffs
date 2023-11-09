@@ -1,0 +1,36 @@
+#menu {
+width:100%;
+text-align:center;
+background-color:#666;
+}
+#menu ul {
+overflow:hidden;
+list-style-type:none;
+}
+#menu ul a:link , ul a:visited{
+display:block;
+text-decoration:none;
+color:white;
+text-transform:uppercase;
+}
+#menu ul a:hover {
+background-color:grey;
+}
+#menu ul li{
+float:left;
+width:120px;
+}
+#prima {
+float:left;
+width:20%;
+}
+#seconda {
+float:right;
+width:20%;
+}
+.p1 {
+margin-left:20%;
+}
+.p2 {
+margin-right:20%;
+}

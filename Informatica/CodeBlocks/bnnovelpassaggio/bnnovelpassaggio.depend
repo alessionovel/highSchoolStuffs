@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1547640058 source:i:\codeblocks\bnnovelpassaggio\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1548847706 source:i:\bnnovelpassaggio\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+

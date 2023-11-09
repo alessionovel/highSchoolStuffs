@@ -1,0 +1,188 @@
+ol,
+ul {
+    list-style: none;
+}
+
+ul.actions.special {
+    justify-content: center;
+}
+
+ul.actions {
+    display: -webkit-flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.actions li {
+    vertical-align: middle;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+#sfondo {
+    height: auto;
+    width: 100%;
+    background-color: #492c99;
+    background-image: url("img/smartBackground.jpg");
+    padding: 5em 0 5em 0;
+    text-align: center;
+}
+
+#sfondo h2,
+#sfondo p {
+    color: #fff;
+}
+
+#sfondo input[type="submit"],
+#sfondo input[type="reset"],
+#sfondo input[type="button"],
+#sfondo .button {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+    color: #fff;
+    min-width: 12em;
+    line-height: 3em;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#sfondo input[type="submit"]:hover,
+#sfondo input[type="reset"]:hover,
+#sfondo input[type="button"]:hover,
+#sfondo .button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#sfondo input[type="submit"]:active,
+#sfondo input[type="reset"]:active,
+#sfondo input[type="button"]:active,
+#sfondo .button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#sfondo input[type="submit"].primary,
+#sfondo input[type="reset"].primary,
+#sfondo input[type="button"].primary,
+#sfondo .button.primary {
+    background: #fff;
+    color: #666 !important;
+}
+
+#sfondo h2 {
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+#sfondo p {
+    font-size: 1.25em;
+    margin-bottom: 1.75em;
+}
+
+#smart {
+    padding: 13px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#smart-33 {
+    /*background-color: #666;*/
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.fette {
+    /*background-color: rgb(134, 26, 26);*/
+    margin: 1%;
+    height: auto;
+    width: 31.3%;
+}
+
+.validita {
+    font-size: 20px;
+}
+
+.spazio {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 148, 8);
+}
+
+.contenitore {
+    height: auto;
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+
+.contenitore {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+.ginopino {
+    background: #492c99;
+    border-radius: 14px;
+    border-style: groove;
+    border-color: #fff;
+    border-width: 3px;
+    max-width: 375px;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
+    box-shadow: 3px 3px 10px black;
+    z-index: 99;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.logo-card {
+    max-width: 125px;
+    margin-bottom: 15px;
+    margin-top: -19px;
+}
+
+#loghetto {
+    max-width: 125px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    font-size: 24px;
+    text-shadow: 2px 4px 6px #000;
+}
+
+label {
+    display: flex;
+    font-size: 13.5px;
+    color: #ffffff;
+}
+
+.cardnumber {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.name {
+    display: block;
+    font-size: 15px;
+    max-width: 200px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.toleft {
+    float: left;
+}
+
+.ccv {
+    width: 50px;
+    margin-top: -5px;
+    font-size: 15px;
+}

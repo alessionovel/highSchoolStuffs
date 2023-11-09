@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="util.ConfrontaNome"/>
+    <fullyQualifiedTypeName name="bean.Concorrente"/>
+    <fullyQualifiedTypeName name="util.ConfrontaPett"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="bean.Snack"/>
+    <fullyQualifiedTypeName name="bean.Bevanda"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="utility.ConfrontaNomeCane"/>
+    <fullyQualifiedTypeName name="utility.ConfrontaProgrGara"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="bean.Cane"/>
+    <fullyQualifiedTypeName name="bean.CanePiccolo"/>
+    <fullyQualifiedTypeName name="bean.CaneMedio"/>
+    <fullyQualifiedTypeName name="bean.CaneGrande"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="bean.Ordine"/>
+</qualifiedTypeNameHistroy>

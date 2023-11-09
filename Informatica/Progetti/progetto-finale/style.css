@@ -1,0 +1,61 @@
+.cards-container {
+    padding: 20px;
+}
+
+.main-title {
+    color: white;
+    font-size: 75px;
+}
+
+.subtitle {
+    color: white;
+}
+
+.button-title {
+    color: white;
+    padding: 10px 30px;
+    background-color: #444444;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button-title:hover {
+    background-color: white;
+    color: #444444;
+    cursor: pointer;
+}
+
+.videogames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.game {
+    width: 300px;
+    background: #222222;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.game-image {
+    width: 100%;
+}
+
+.game-texts {
+    padding: 20px 10px;
+}
+
+.game-name {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.game-button {
+    padding: 10px;
+    font-size: 20px;
+}

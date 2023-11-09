@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543331578 source:g:\informatica\programmazione\codeblocks\_progetto23_bubblesort\main.cpp
+	<iostream>
+	<time.h>
+	<cstdlib>
+

@@ -1,0 +1,144 @@
+<!-- All' inizio di un codice html è consigliato mettere sempre questo codice per indicare al browser come interpretare il documento -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<!--
+un documento HTML deve iniziare con il tag <html>
+il tag <html> deve contenere il tag <head> e il tag <body>
+-->
+<html>
+<!--
+il tag <head> deve contenere il tag <title> e può contenere anche <base>, <link>, <meta>, <script> e <style> 
+<link> serve ad indicare dove andare a prendere il file css
+-->
+    <head>
+        <title>Titolo della pagina</title>
+			<link rel="stylesheet" type="text/css" href="come.css" />
+    </head>
+<!-- dentro il tag <body> dev'essere inserito il contenuto della pagina-->
+    <body>
+<!--
+<p> contiene il paragrafo 
+<br> serve ad andare a capo 
+<strong> per scrivere in grassetto
+<em> per scrivere in corsivo
+<del> per srivere un testo barrato
+-->
+        <p>
+	    Questo è un paragrafo HTML.<br>
+        Ora sono andato a capo e
+            <strong>ora scrivo in grassetto</strong>.<br>
+        Tornando a capo scrivo invece
+    	    <em> in corsivo</em>
+        e, infine, 
+    	    <del>scrivo un testo barrato</del>!
+        </p>
+<!-- 
+<hn> serve a dare varie importanze ai vari titoli
+-->
+        <h1>Titolo h1</h1>
+        <h2>Titolo h2</h2>
+        <h3>Titolo h3</h3>
+        <h4>Titolo h4</h4>
+        <h5>Titolo h5</h5>
+        <h6>Titolo h6</h6>
+<!--
+nei collegamenti ipertestuali:
+<a href="sitoweb"> inserire il sito che si vuole collegare
+clicca qui</a> inserire le parole da cliccare
+-->
+        <p>
+    	Inserire 
+    	    <a href="https://www.instagram.com/alessionovel/">
+            un link al mio sito
+    		</a> 
+    	all'interno di un testo
+        html non è niente di complesso.
+        Basta solo usare il tag a.
+        </p>
+<!--
+src=percorso dell'immagine
+width=larghezza
+height=altezza
+alt=testo alternativo nel caso in cui non si trovi l'immagine
+-->
+        <p>
+	    Per inserire un'immagine all'interno della nostra
+        pagina web, ci basta usare il tag img
+    	</p>
+        <img src="immagine.png" width="100" height="100" alt="immagine" />
+<!--
+<table> dichiaro una tabella
+<tr>=riga
+<td>=colonne
+<th> da usare al posto di <tr> per i "titoli"
+border=spessore del bordo
+celpadding=spazio tra testo e bordo di una cella
+cellspacing=spazio tra le celle
+width=larghezza tabella
+-->
+        <table border="3" cellpadding="15" cellspacing="10" width="450px">
+            <tr>
+	    	    <th>Prima colonna</th>
+	    		<th>Seconda colonna</th>
+	    	</tr>
+            <tr>
+                <td>riga 1, colonna 1</td>
+                <td>riga 1, colonna 2</td>
+            </tr>
+            <tr>
+                <td>riga 2, colonna 1</td>
+                <td>riga 2, colonna 2</td>
+            </tr>
+        </table>
+<!--
+<ul>=elenchi puntati
+<ol>=elenchi numerati
+<li>per contrassegnare ogni elemento dell'elenco
+-->
+        <ul>
+            <li>comprare il pane</li>
+	    	<li>comprare il latte</li>
+        </ul>
+        <ol>
+	        <li>comprare il pane</li>
+	    	<li>comprare il latte</li>
+        </ol>
+<!--
+Usiamo il form per un inserimento di dati
+-->
+        <form method="post" action="" onsubmit="return controlla()">
+<!--
+I primi due sono un normale inserimento di caratteri
+text=testo normale
+password=testo nascosto
+-->
+        Email:<br />
+            <input type="text" name="testo" /><br />
+        Password:<br />
+            <input type="password" name="pwd" /><br />
+<!--
+Radio serve per decidere una sola casella tra le varie possibilità
+-->
+        Sesso:<br />
+            <input type="radio" name="sesso" value="maschio" />Maschio<br />
+            <input type="radio" name="sesso" value="femmina" />Femmina<br />
+<!--
+Checkbox invece ti da la possibilità di scegliere tra più caselle
+--> 
+         Veicolo:<br />
+            <input type="checkbox" name="veicolo" value="bicicletta" />Bicicletta<br />
+            <input type="checkbox" name="veicolo" value="motorino" />Motorino<br />
+            <input type="submit" value="Invia dati" />
+        </form>
+<!--
+<script> è un riferimento a un codice, in questo casp javascript
+-->
+        <script type="text/javascript">
+        document.write("Hello World!")
+        </script>
+<!--
+<div> serve per il layout del file		
+-->
+	    <div></div>
+    </body>
+</html>

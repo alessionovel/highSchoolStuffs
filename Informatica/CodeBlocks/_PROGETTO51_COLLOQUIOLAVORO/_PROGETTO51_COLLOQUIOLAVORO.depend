@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549909274 source:c:\users\aless\desktop\programmazione\codeblocks\_progetto51_colloquiolavoro\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

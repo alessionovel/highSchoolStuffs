@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1551178237 source:i:\codeblocks\pacman\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<string>
+	<vector>
+

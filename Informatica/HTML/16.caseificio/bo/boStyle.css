@@ -1,0 +1,248 @@
+:root{
+  --background: #ddd;
+  --accountBar: #eee;
+  --shadowInput:#deb876;
+  --shadowInputHover:#8c764f;
+  --sabbia:#deb876;
+}
+html, body {
+  margin:0;
+  font-family: sans-serif;
+  background-image: url("../images/muroBianco.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px; /* You must set a specified height */
+  background-position: center;
+}
+button,p {
+  margin:0;
+  text-align: center;
+
+}
+/* Hides Arrows from number input*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.header{ /*div*/
+  text-align: center;
+  padding: 1.5% 2.5%;
+  background-image: url("../images/muroBianco.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*height: 500px;  You must set a specified height */
+  background-position: center;
+}
+#header{/*paragraph*/
+  font-size: 2em;
+
+  font-weight: bold;
+  color: #000000;
+}
+.benvenuto {
+  background-color: var(--sabbia);
+  padding: .75% 0 .125% .25%;
+  /*border-bottom: .25em dashed var(--shadowInputHover);*/
+  border-bottom: .25em var(--shadowInputHover);
+  background-image: url("../images/muroBianco.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#benvenuto {
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  background-image: url("../images/muroBianco.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#btnMenu{
+  background-color: var(--sabbia);
+  /*background-image: url("../images/muroBianco.jpg") !important;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btnSelector {
+  outline:none;
+  border:none;
+  margin:0;
+  color: #fff;
+  padding: .5% 1%;
+  background-color: var(--sabbia);
+  font-weight: bold;
+  font-size:1em;
+}
+
+.btnSelector:hover{
+  background-color: var(--shadowInputHover);
+}
+#subMenu{
+  text-align: center;
+  background-color: var(--shadowInput);
+}
+#catBody, #prodBody, #ordBody{
+  margin: 5% 10%;
+  text-align: center;
+}
+
+/*Table*/
+#table {/*css for the table in general*/
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 33%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  box-shadow: 0 0em 1em 0 #4051b53b, 0 0 1.1em 0#4051b575;
+}
+
+#table td, #table th { /*css for the cells*/
+  border: 0.0625em solid var(--shadowInputHover);
+  padding: .5em;
+}
+.forButton { /*css for the cells*/
+  padding: 0 !important;
+}
+
+.btnForm{
+  width:100%;
+}
+
+.btnForm:hover{
+  background-color: var(--background) ;
+}
+
+.btnForm:disabled{
+  background-color: var(--shadowInputHover) ;
+}
+
+#table tr:hover {background-color: var(--accountBar);}
+
+#table th {
+  padding-top: .8em;
+  padding-bottom: .8em;
+  text-align: left;
+  background-color: var(--shadowInput) ;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#table button {
+  background-color: inherit;
+  outline:none;
+  border:none;
+}
+/**/
+
+.contBox{
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: .25em;
+  text-align:center;
+  background-image: url("../images/parquet.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1080px;
+}
+.inputBox{
+  margin-left:auto;
+  margin-right: auto;
+  padding: 0 1em;
+  background-color: var(--accountBar);
+  border: 0.2em solid var(--shadowInput);
+  width:fit-content;
+  box-shadow: 0 0em 1em 0 #4051b53b, 0 0 1.1em 0#4051b575;
+}
+
+.selectBar {
+  width: 10em;
+  padding: 1% 1.25%;
+  /*margin-bottom: 1%;*/
+  font-size: 1.25em;
+}
+
+.inputBar{
+  display: block;
+
+  padding: .5em .5em;
+  font-size: 1em;
+
+  margin-left:auto;
+  margin-right:auto;
+  /*margin-top: 5%;*/
+  background-color: white;
+  border: 0.1em solid var(--shadowInput);
+  outline: none;
+  border-radius: .25em;
+}
+.inputBar:disabled{
+  background-color: var(--background);
+}
+
+.domande{
+  width:80% !important;
+}
+
+.btnConf{
+  outline:none;
+  border:none;
+  margin:0;
+  color: #fff;
+  padding: .5% 1.5%;
+  background-color: var(--shadowInput);
+  font-weight: bold;
+  font-size:1em;
+}
+
+.fileBar{
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+.descInputBar{
+  max-width: 80%;
+  min-width: 50%;
+  min-height: 5em;
+  width:80%;
+  height: 5em;
+}
+.inputSub {
+  outline:none;
+  border:none;
+  margin:0;
+  color: #fff;
+  padding: 5% 10%;
+  background-color: var(--shadowInput);
+  font-weight: bold;
+  font-size:1em;
+}
+
+.inputSub:hover{
+  background-color: var(--shadowInputHover);
+}
+#confirmBox{
+  margin-left:auto;
+  margin-right:auto;
+  padding: 1%;
+  width:33%;
+  background-color: var(--accountBar);
+  border: 0.1em solid var(--shadowInput);
+  border-radius: .25em;
+  box-shadow: 0 0em 1em 0 #4051b53b, 0 0 1.1em 0#4051b575;
+}
+#prodCat{
+  width: 33%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: .5%;
+  border-top: 0.2em solid var(--shadowInput);
+}
+#loginBo{
+  margin-top: 10%;
+}

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1552387783 source:c:\users\aless\desktop\programmazione\codeblocks\_progetto55_gita\main.cpp
+	<iostream>
+	<fstream>
+
+1552992693 source:i:\codeblocks\_progetto55_gita\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+
+1552992984 source:f:\informatica\programmazione\codeblocks\_progetto55_gita\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

@@ -1,0 +1,2 @@
+Usa algoritmo: –aes-256-cbc
+Usa Password: cisco

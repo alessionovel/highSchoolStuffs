@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libro"
+    tools:context=".VediActivity">
+
+
+    <ImageView
+        android:id="@+id/imgOpera"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txtTitolo"
+        style="@style/TextStyle"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Titolo"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtDi"
+        app:layout_constraintTop_toTopOf="@+id/txtDi" />
+
+    <TextView
+        android:id="@+id/txtDi"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtAutore"
+        android:layout_below="@id/txtTitolo"
+        android:layout_alignStart="@id/txtTitolo"
+        android:layout_alignLeft="@id/txtTitolo"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="di"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgOpera" />
+
+    <TextView
+        android:id="@+id/txtAutore"
+        style="@style/TextStyle"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/txtTitolo"
+        android:layout_alignLeft="@id/txtTitolo"
+        android:layout_alignBottom="@id/imgOpera"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Autore"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/txtDi"
+        app:layout_constraintTop_toTopOf="@+id/txtDi" />
+
+    <TextView
+        android:id="@+id/txtDescrizione"
+        style="@style/TextStyle"
+        android:layout_width="304dp"
+        android:layout_height="177dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Questo quadro rappresenta il romanticismo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDi"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnVota"
+        style="@style/ButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="VOTA"
+        app:layout_constraintStart_toEndOf="@+id/txtCentro"
+        app:layout_constraintTop_toTopOf="@+id/txtVoto" />
+
+    <EditText
+        android:id="@+id/txtVoto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:hint="Vota"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toStartOf="@+id/txtCentro"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescrizione" />
+
+    <TextView
+        android:id="@+id/txtMedia"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="8dp"
+        android:text="Media Voto: 0.00"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVota" />
+
+    <TextView
+        android:id="@+id/txtCentro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="205dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="521dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

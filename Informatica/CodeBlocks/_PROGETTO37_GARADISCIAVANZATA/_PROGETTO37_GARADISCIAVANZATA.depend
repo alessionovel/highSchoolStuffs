@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1541407194 source:i:\codeblocks\_progetto37_garadisciavanzata\main.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<cstdlib>
+

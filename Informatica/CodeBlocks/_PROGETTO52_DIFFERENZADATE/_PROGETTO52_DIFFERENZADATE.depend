@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1550658158 source:i:\codeblocks\_progetto52_differenzadate\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdlib.h>
+	<cstdlib>
+	<sstream>
+

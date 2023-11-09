@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/legno"
+    tools:context=".RicercaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/txtRicerca"
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnRicerca"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text=""
+            android:hint="Inserisci testo"
+            android:textSize="30dp"/>
+
+        <ImageButton
+            android:id="@+id/btnRicerca"
+            style="@style/ButtonStyle"
+            android:layout_width="95dp"
+            android:layout_height="84dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

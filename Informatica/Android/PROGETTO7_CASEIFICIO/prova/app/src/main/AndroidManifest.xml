@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prova">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Prova">
+        <activity
+            android:name=".VendiForma2Activity"
+            android:parentActivityName=".VendiFormaActivity" />
+        <activity
+            android:name=".ModificaForma2Activity"
+            android:parentActivityName=".ModificaFormaActivity" />
+        <activity
+            android:name=".RegistraForma2Activity"
+            android:parentActivityName=".RegistraFormaActivity" />
+        <activity
+            android:name=".RegistraClienteActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".VendiFormaActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".RegistraFormaActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ModificaFormaActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".LatteActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Latte2Activity"
+            android:parentActivityName=".LatteActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
